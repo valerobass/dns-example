@@ -23,5 +23,5 @@ Vagrant.configure("2") do |config|
     cp -v /vagrant/named.conf.local /etc/bind/
     systemctl restart named 
     SHELL
-
+  end
 end
